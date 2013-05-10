@@ -19,7 +19,8 @@
   "devDependencies": {
     "mocha": "1.9.x",
     "rigger": "0.5.x",
-    "formatter": "0.1.x"
+    "formatter": "0.1.6",
+    "gedi": "0.2.1"
   },
   "repository": {
     "type": "git",
