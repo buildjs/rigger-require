@@ -1,0 +1,35 @@
+{
+  "name": "rigger-require",
+  "description": "Rigger plugin to support the //=require instruction",
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "tags": [
+    "build",
+    "browserify"
+  ],
+  "version": "0.0.0",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "async": "0.2.x",
+    "debug": "*",
+    "module-deps": "0.7.x",
+    "resolve": "0.3.x"
+  },
+  "devDependencies": {
+    "mocha": "1.9.x",
+    "rigger": "0.5.x",
+    "formatter": "0.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buildjs/rigger-require.git"
+  },
+  "bugs": {
+    "url": "http://github.com/buildjs/rigger-require/issues"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "contributors": []
+}
